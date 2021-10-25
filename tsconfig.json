@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es6",
+    "allowJs": true,
+    "jsx": "react",
+    "lib": ["DOM", "ESNext"]
+  },
+  "include": ["./src/**/*"]
+}
